@@ -23,24 +23,15 @@ public class ToDo {
 
 
     boolean highPriority(int priority) {
-        if (priority > 0)
-            return true;
-        else
-            return false;
+        return priority > 0;
     }
 
     boolean mediumPriority(int priority) {
-        if (priority == 0)
-            return true;
-        else
-            return false;
+        return priority == 0;
     }
 
     boolean lowPriority(int priority) {
-        if (priority < 0)
-            return true;
-        else
-            return false;
+        return priority < 0;
     }
 
     @Override
