@@ -1,12 +1,3 @@
-//w klasie ToDOmetody z priorytetem powinny sprawdzic wartosc pola z klasy a nie z argumenty
-//Czyli zmaiast
-//    boolean highPriority(int priority) {
-//        return priority > 0;
-//    }
-//powinno byc
-//    boolean highPriority() {
-//        return priority > 0;
-//    }
 public class ToDo {
     String name;
     String description;
